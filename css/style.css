@@ -13,6 +13,10 @@ a {
     text-decoration: none;
 }
 
+button{
+    outline: none;
+}
+
 .container {
     width: 1155px;
     margin: 0 auto;
@@ -109,7 +113,6 @@ a {
     -webkit-transition: all 300ms ease-in-out;
     transition: all 300ms ease-in-out;
     cursor: pointer;
-    outline: none;
 }
 
 .begin-now_button:hover {
