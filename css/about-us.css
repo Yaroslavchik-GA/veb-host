@@ -1,0 +1,38 @@
+.about-us-main-text {
+    line-height: 30px;
+    font-size: large;
+    margin-bottom: 100px;
+}
+
+.goods_title {
+    text-align: start;
+}
+
+.container-text { 
+    width: 60%;
+}
+
+.about-us-cards {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+.about-us-cards div+div{
+    margin-left: 100px;
+}
+
+.about-us-cards h1 {
+    font-weight: 100;
+    font-size: 50px;
+    color: #2575e7;
+}
+
+.about-us-cards p{
+    margin: 0;
+    font-size: 20px;
+}
+.about-us .container {
+    height: 100vh;
+    padding-top: 10vh;
+}
