@@ -432,7 +432,7 @@ button{
         font-size: 12px;
     }
     .container {
-        width: 720px;
+        width: 1000px;
     }
     .main_header_menu, .blog_header_menu{
         justify-content: center;

@@ -36,3 +36,67 @@
     height: 100vh;
     padding-top: 10vh;
 }
+
+@media(max-width: 1160px){
+    
+    .about-us-cards p{
+        font-size: 16px;
+    }
+
+    .about-us-cards h1 {
+        font-size: 40px; 
+    }
+
+    .about-us-cards div+div{
+        margin-left: 50px;
+    }
+
+    /* .about-us-cards div{
+        width: auto;
+    } */
+}
+
+@media(max-width: 750px){
+
+    .about-us-cards div+div{
+        margin-left: 0;
+    }
+
+    .about-us-cards p{
+        font-size: 15px;
+    }
+
+    .about-us-cards {
+        
+        flex-direction: column;
+        
+    }
+
+    .container-text { 
+        width: 100%;
+    }
+}
+
+@media(max-width: 690px){
+
+    .about-us-cards div+div{
+        margin-left: 0;
+    }
+
+    .about-us-cards {
+        
+        flex-direction: column;
+        
+    }
+    .about-us .container {
+        height: 100%;
+        padding-top: 20px;
+    }
+    .about-us-cards div{
+        padding-bottom: 30px;
+    }
+
+    .container-text { 
+        width: 100%;
+    }
+}
